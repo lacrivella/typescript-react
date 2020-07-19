@@ -6,8 +6,16 @@ interface AppProps {
 }
 
 class App extends React.Component<AppProps> {
+  state = { counter: 0 };
+
   render() {
-    return <div>{this.props.color}</div>;
+    return (
+      <div>
+        <button>Increase</button>
+        <button>Decrease</button>
+        {this.state.counter}
+      </div>
+    );
   }
 }
 
