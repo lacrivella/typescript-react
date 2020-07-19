@@ -6,9 +6,14 @@ interface AppProps {
 }
 
 class App extends React.Component<AppProps> {
+  // redefined the Component's state when we had inline state = { counter: 0 }
+  // that's why it worked compared to now
+
   constructor(props: AppProps) {
     super(props);
 
+    //this doesn't redefine state. it just reassigns a new value.
+    //this. state is currently an empty object. we cannot define properties on it
     this.state = { counter: 0 };
   }
 
