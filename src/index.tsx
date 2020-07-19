@@ -8,11 +8,19 @@ interface AppProps {
 class App extends React.Component<AppProps> {
   state = { counter: 0 };
 
+  onIncrease = (): void => {
+    this.setState({ counter: this.state.counter + 1 });
+  };
+
+  onDecrease = (): void => {
+    this.setState({ counter: this.state.counter - 1 });
+  };
+
   render() {
     return (
       <div>
-        <button>Increase</button>
-        <button>Decrease</button>
+        <button onClick={this.onIncrease}>Increase</button>
+        <button onClick={this.onDecrease}>Decrease</button>
         {this.state.counter}
       </div>
     );
