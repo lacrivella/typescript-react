@@ -13,3 +13,7 @@ export class App extends React.Component<AppProps> {
     return <div>Hello Again</div>;
   }
 }
+
+const mapStateToProps = (state: StoreState): { todos: Todo[] } => {
+  return { todos: state.todos };
+};
