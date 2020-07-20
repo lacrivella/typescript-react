@@ -31,7 +31,7 @@ export const fetchTodos = () => {
   };
 };
 
-export const deleteToDo = (id: number): DeleteTodoAction => {
+export const deleteTodo = (id: number): DeleteTodoAction => {
   return {
     type: ActionTypes.deleteTodo,
     payload: id,
