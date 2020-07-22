@@ -39,7 +39,7 @@ class _App extends React.Component<AppProps, AppState> {
   renderList(): JSX.Element[] {
     return this.props.todos.map((todo: Todo) => {
       return (
-        <ul>
+        <ul className={styles.list}>
           <li onClick={() => this.onTodoClick(todo.id)} key={todo.id}>
             {todo.title}
           </li>
@@ -47,12 +47,14 @@ class _App extends React.Component<AppProps, AppState> {
       );
     });
   }
-
+  
   render() {
     return (
       <div className={styles.container}>
-        <button className={styles.button} onClick={this.onButtonClick}>Fetch</button>
+        <button className={styles.button} onClick={this.onButtonClick}>FETCH</button>
         {this.state.fetching ? 'LOADING' : null}
+        <div className={styles.span}>To-Do List</div>
+        <div className={styles.info}>click on a task to delete</div>
         {this.renderList()}
       </div>
     );

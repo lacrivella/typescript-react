@@ -1,11 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Varela+Round&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .container {
+  font-family: 'Lora', serif;
+  color: #2f6b39;
+  font-size: 16px;
+  background-color: #F7F7f7;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .button {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 48px;
+  color: #a3c934;
+  border-radius: 8px;
+  border-style: none;
+  background-color: #2f6b39;
+}
+
+.span {
+  font-size: 32px;
+}
+
+.info {
+  color: #a3c934;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.list {
+  font-family: 'Lora', serif;
+  color: #2f6b39;
+  font-size: 16px;
+  list-style: none;
 }
