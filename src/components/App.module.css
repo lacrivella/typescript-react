@@ -5,6 +5,8 @@
   color: #2f6b39;
   font-size: 16px;
   background-color: #F7F7f7;
+  display: grid;
+  place-items: center;
 }
 
 .button {
