@@ -40,7 +40,7 @@ class _App extends React.Component<AppProps, AppState> {
     return this.props.todos.map((todo: Todo) => {
       return (
         <ul className={styles.list}>
-          <li onClick={() => this.onTodoClick(todo.id)} key={todo.id}>
+          <li className={styles.list} onClick={() => this.onTodoClick(todo.id)} key={todo.id}>
             {todo.title}
           </li>
         </ul>

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Varela+Round&display=swap');
 
+* {
+  background-color: black;
+}
+
 .container {
   font-family: 'Lora', serif;
   color: #2f6b39;
@@ -20,11 +24,13 @@
 
 .span {
   font-size: 32px;
+  background-color: #F7F7f7;
 }
 
 .info {
   color: #a3c934;
   font-family: 'Varela Round', sans-serif;
+  background-color: #F7F7f7;
 }
 
 .list {
@@ -32,4 +38,5 @@
   color: #2f6b39;
   font-size: 16px;
   list-style: none;
+  background-color: #F7F7f7;
 }
