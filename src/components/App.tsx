@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Todo, fetchTodos, deleteTodo } from '../actions';
 import { StoreState } from '../reducers';
+import styles from './App.module.css';
 
 interface AppProps {
   todos: Todo[];
@@ -49,8 +50,8 @@ class _App extends React.Component<AppProps, AppState> {
 
   render() {
     return (
-      <div>
-        <button onClick={this.onButtonClick}>Fetch</button>
+      <div className={styles.container}>
+        <button className={styles.button} onClick={this.onButtonClick}>Fetch</button>
         {this.state.fetching ? 'LOADING' : null}
         {this.renderList()}
       </div>

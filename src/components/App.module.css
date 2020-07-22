@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&family=Permanent+Marker&display=swap');
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  font-family: 'Permanent Marker', cursive;
+}
