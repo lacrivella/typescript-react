@@ -17,11 +17,17 @@
 .button {
   font-family: 'Varela Round', sans-serif;
   font-size: 48px;
-  color: white;
+  color: whitesmoke;
   border-radius: 8px;
   border-style: none;
+  outline: none;
   background-color:rgba(29,161,242,1.00);
   margin-top: 16px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color:rgba(29,161,242, .8);
 }
 
 .span {
@@ -31,22 +37,27 @@
 
 .info {
   font-family: 'Varela Round', sans-serif;
-  /* background-color: #F7F7f7; */
+  color: whitesmoke;
 }
 
 .mainList {
   background-color: rgb(32, 46, 58);
+  border-radius: 16px;
 }
 
 .list {
   font-family: 'Lora', serif;
-  color: white;
+  color: whitesmoke;
   font-size: 16px;
   list-style: circle;
   background-color: rgb(32, 46, 58);
+  border-radius: 16px;
 }
 
 .list:hover {
   color: rgba(29,161,242,1.00);
   cursor: pointer;
+  background-color: rgb(23, 45, 64);
+  border-radius: 8px;
+  width: auto;
 }
