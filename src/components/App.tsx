@@ -55,7 +55,7 @@ class _App extends React.Component<AppProps, AppState> {
         {this.state.fetching ? 'LOADING' : null}
         <div className={styles.span}>To-Do List</div>
         <div className={styles.info}>click on a task to delete</div>
-        {this.renderList()}
+        <div className={styles.mainList}>{this.renderList()}</div>
       </div>
     );
   }

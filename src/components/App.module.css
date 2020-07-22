@@ -6,7 +6,7 @@
 
 .container {
   font-family: 'Lora', serif;
-  color: #2f6b39;
+  color: rgba(29,161,242,1.00);
   font-size: 16px;
   /* background-color: #F7F7f7; */
   display: grid;
@@ -17,10 +17,10 @@
 .button {
   font-family: 'Varela Round', sans-serif;
   font-size: 48px;
-  color: #a3c934;
+  color: white;
   border-radius: 8px;
-  /* border-style: none; */
-  background-color: #2f6b39;
+  border-style: none;
+  background-color:rgba(29,161,242,1.00);
   margin-top: 16px;
 }
 
@@ -30,20 +30,23 @@
 }
 
 .info {
-  color: #a3c934;
   font-family: 'Varela Round', sans-serif;
   /* background-color: #F7F7f7; */
 }
 
+.mainList {
+  background-color: rgb(32, 46, 58);
+}
+
 .list {
   font-family: 'Lora', serif;
-  color: #2f6b39;
+  color: white;
   font-size: 16px;
   list-style: circle;
-  /* background-color: #F7F7f7; */
+  background-color: rgb(32, 46, 58);
 }
 
 .list:hover {
-  color: white;
+  color: rgba(29,161,242,1.00);
   cursor: pointer;
 }
