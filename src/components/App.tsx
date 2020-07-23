@@ -51,7 +51,7 @@ class _App extends React.Component<AppProps, AppState> {
   render() {
     return (
       <div className={styles.container}>
-        <button className={styles.button} onClick={this.onButtonClick}>FETCH</button>
+        <button className={styles.button} onClick={this.onButtonClick}>Fetch</button>
         {this.state.fetching ? 'LOADING' : null}
         <div className={styles.span}>To-Do List</div>
         <div className={styles.info}>click on a task to delete</div>

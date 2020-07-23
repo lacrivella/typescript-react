@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Varela+Round&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&family=Varela+Round&display=swap');
 * {
   background-color: rgb(21, 32, 43);
 }
 
 .container {
   font-family: 'Lora', serif;
-  color: rgba(29,161,242,1.00);
+  color: rgba(29, 161, 242, 1);
   font-size: 16px;
   /* background-color: #F7F7f7; */
   display: grid;
@@ -15,19 +14,19 @@
 }
 
 .button {
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Pacifico', cursive;
   font-size: 48px;
   color: whitesmoke;
   border-radius: 8px;
   border-style: none;
   outline: none;
-  background-color:rgba(29,161,242,1.00);
+  background-color: rgba(29, 161, 242, 1);
   margin-top: 16px;
 }
 
 .button:hover {
   cursor: pointer;
-  background-color:rgba(29,161,242, .8);
+  background-color: rgba(29, 161, 242, 0.8);
 }
 
 .span {
@@ -46,7 +45,7 @@
 }
 
 .list {
-  font-family: 'Lora', serif;
+  font-family: 'Varela Round', sans-serif;
   color: whitesmoke;
   font-size: 16px;
   list-style: circle;
@@ -55,7 +54,7 @@
 }
 
 .list:hover {
-  color: rgba(29,161,242,1.00);
+  color: rgba(29, 161, 242, 1);
   cursor: pointer;
   background-color: rgb(23, 45, 64);
   border-radius: 8px;
