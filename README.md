@@ -1,5 +1,8 @@
 
+An app that explores the concept of react with typescript. Using a REST API from [JSONPlaceholder](https://jsonplaceholder.typicode.com) and axios, a user is able to fetch a list of lorem ipsum to-dos. The list is generated using react components. Able to delete to-dos by clicking on them.
 
+---
+![dark blue background with a bright blue button with the word Fetch written in cursive. Text below says "To-Do List" with a list of lorem ipsum-esque bullet points](demo-image.png)
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
