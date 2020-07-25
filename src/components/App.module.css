@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&family=Varela+Round&display=swap');
 * {
-  background-color: rgb(21, 32, 43);
+  /* background-color: rgb(21, 32, 43); */
 }
 
 .container {
@@ -47,7 +47,6 @@
 }
 
 .list {
-  text-align: center;
   font-family: 'Varela Round', sans-serif;
   color: whitesmoke;
   font-size: 16px;
